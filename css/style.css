@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -16,7 +17,7 @@
 }
 @media (min-width: 1024px) {
   .grid-container {
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 120px 1fr;
   }
 }
 
@@ -30,10 +31,90 @@ nav {
 
 main {
   grid-area: main;
+  display: grid;
 }
 @media (min-width: 768px) {
   main {
-    grid-template-columns: 50%;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    grid-column: 1/span 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .alert {
+    grid-column: 1/span 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .traffic {
+    grid-column: 1/span 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .social-container {
+    grid-column: 1/span 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .daily {
+    grid-column: 1/span 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .members {
+    grid-column: 1/span 1;
+    background: grey;
+  }
+}
+
+@media (min-width: 768px) {
+  .message {
+    grid-column: 1/span 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-users {
+    grid-column: 2/span 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .activity {
+    grid-column: 2/span 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .settings {
+    grid-column: 2/span 1;
+  }
+}
+
+.widget-container-full​ {
+  width: 95vw;
+}
+@media (min-width: 768px) {
+  .widget-container-full​ {
+    width: 90vw;
+  }
+}
+
+.widget-container-half​ {
+  width: 95vw;
+}
+@media (min-width: 768px) {
+  .widget-container-half​ {
+    width: 45vw;
   }
 }
 
