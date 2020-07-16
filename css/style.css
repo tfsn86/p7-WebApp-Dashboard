@@ -72,7 +72,6 @@ main {
 @media (min-width: 768px) {
   .members {
     grid-column: 1/span 1;
-    background: grey;
   }
 }
 
@@ -101,20 +100,20 @@ main {
 }
 
 .widget-container-full​ {
-  width: 95vw;
+  width: 90vw;
 }
 @media (min-width: 768px) {
   .widget-container-full​ {
-    width: 90vw;
+    width: 80vw;
   }
 }
 
 .widget-container-half​ {
-  width: 95vw;
+  width: 90vw;
 }
 @media (min-width: 768px) {
   .widget-container-half​ {
-    width: 45vw;
+    width: 40vw;
   }
 }
 

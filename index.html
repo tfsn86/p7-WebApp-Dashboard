@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Document</title>
 	</head>
@@ -32,7 +33,7 @@
 			</div>
 
 			<!-- alert banner -->
-			<div class="alert" id="alert">X<!-- JS will insert alert here --></div>
+			<div class="alert" id="alert"><!-- JS will insert alert here --></div>
 
 			<!-- line graph charts -->
 			<section class="traffic">
@@ -46,7 +47,6 @@
 					</ul>
 				</div>
 				<div class="widget-container-full">
-					<img src="images/line-graph-placeholder.png" alt="#" />
 					<!-- element line graph will attach to -->
 					<canvas id="traffic-chart"></canvas>
 				</div>
@@ -56,7 +56,6 @@
 			<section class="daily">
 				<h3>Daily Traffic</h3>
 				<div class="widget-container-half">
-					<img src="images/diagram-placeholder.png" alt="#" />
 					<!-- element bar graph will attach to -->
 					<canvas id="daily-chart"></canvas>
 				</div>
@@ -64,9 +63,8 @@
 			<section class="mobile-users">
 				<h3>Mobile Users</h3>
 				<div class="widget-container-half">
-					<img src="images/doughnut-chart-placeholder.png" alt="#" />
 					<!-- element doughnut graph will attach to -->
-					<canvas id="daily-chart"></canvas>
+					<canvas id="mobile-chart"></canvas>
 				</div>
 			</section>
 			<div class="social-container">
@@ -204,5 +202,7 @@
 				</div>
 			</section>
 		</main>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+		<script src="app.js"></script>
 	</body>
 </html>
