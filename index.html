@@ -4,24 +4,57 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/normalize.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Document</title>
 	</head>
 	<body class="grid-container">
 		<header>
-			<h1>My New App</h1>
-			<div class="bell-icon">
-				<!-- SVG -->
-				<!-- div#notifications -->
+			<h1><strong>Your</strong><span>App&trade;</span></h1>
+			<div class="header-right">
+				<div class="bell-container">
+					<img class="bell" src="icons/icon-bell.svg" alt="bell-icon" />
+					<span class="dot"></span>
+					<!-- container elements for our notificatoins -->
+					<div id="notifications" class="notification"></div>
+				</div>
+				<img class="profile-img" src="images/member-1.jpg" alt="member-1" />
+				<h2 class="profile-name">Victoria Chambers</h2>
 			</div>
-			<img src="#" alt="#" />
-			<h3></h3>
 		</header>
 		<nav>
-			<a href="#"><img src="#" alt="#" /></a>
-			<a href="#"><img src="#" alt="#" /></a>
-			<a href="#"><img src="#" alt="#" /></a>
-			<a href="#"><img src="#" alt="#" /></a>
+			<div id="green-line" class="nav-icon-container">
+				<a href="#"
+					><img
+						class="nav-icon"
+						src="icons/icon-dashboard.svg"
+						alt="dashboard-icon"
+				/></a>
+			</div>
+			<div class="nav-icon-container">
+				<a href="#"
+					><img
+						class="nav-icon"
+						src="icons/icon-members.svg"
+						alt="icon-members"
+				/></a>
+			</div>
+			<div class="nav-icon-container">
+				<a href="#"
+					><img class="nav-icon" src="icons/icon-visits.svg" alt="visits-icon"
+				/></a>
+			</div>
+			<div class="nav-icon-container">
+				<a href="#"
+					><img
+						class="nav-icon"
+						src="icons/icon-settings.svg"
+						alt="settings-icon"
+				/></a>
+			</div>
 		</nav>
 		<main>
 			<!-- dashboard and search bar -->
