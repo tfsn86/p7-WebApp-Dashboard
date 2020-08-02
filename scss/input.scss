@@ -28,6 +28,7 @@ nav {
 main {
 	grid-area: main;
 	display: grid;
+	margin-bottom: 60px;
 }
 
 .widget-container-full​ {
@@ -399,14 +400,78 @@ input[type='text'] {
 	margin-bottom: 20px;
 }
 
-.button-primary {
+.button {
+	&-primary {
+		line-height: 3em;
+
+		background: rgba(116, 119, 191, 1);
+		border: 1px solid rgba(116, 119, 191, 1);
+		color: #fff;
+		border-radius: 5px;
+		text-transform: uppercase;
+	}
+	&-disabled {
+		line-height: 3em;
+		background: rgba(116, 119, 191, 1);
+		border: 1px solid rgba(116, 119, 191, 1);
+		color: #fff;
+		border-radius: 5px;
+		text-transform: uppercase;
+	}
+}
+
+.settings {
+	padding-right: 50px;
+}
+
+.settings-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#send {
 	width: 95%;
-	height: 20%;
-	margin-bottom: 40px;
-	background: rgba(116, 119, 191, 1);
-	border: 1px solid rgba(116, 119, 191, 1);
-	color: #fff;
+}
+
+#save {
+	width: 45%;
+}
+
+#cancel {
+	width: 45%;
+	background: rgb(194, 194, 194);
+	border: 1px solid rgb(194, 194, 194);
+}
+
+.form-field {
+	height: 50px;
+	width: 100%;
+	margin-right: 35px;
 	border-radius: 5px;
+	padding-left: 15px;
+	color: grey;
+	border: 1px solid rgb(199, 199, 199);
+	background: rgb(245, 245, 245);
+}
+
+.switch-light {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 23px;
+	align-items: center;
+	& p {
+		margin-right: 50px;
+	}
+}
+
+#p2 {
+	margin-right: 77px;
+}
+
+.btn-padding {
+	padding: 15px;
 }
 
 /*

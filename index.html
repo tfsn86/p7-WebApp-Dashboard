@@ -8,6 +8,7 @@
 			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="Toggle switch/toggle-switch-px.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Document</title>
 	</head>
@@ -261,12 +262,30 @@
 			<!-- local settings widget -->
 			<section class="settings">
 				<h3>Settings</h3>
+				<label class="switch-light switch-candy" onclick="">
+					<input type="checkbox" />
+					<p>Send Email Notications</p>
+					<span>
+						<span class="btn-padding">Off</span>
+						<span class="btn-padding">On</span>
+						<a></a>
+					</span>
+				</label>
+				<label class="switch-light switch-candy" onclick="">
+					<input type="checkbox" />
+					<p id="p2">Set Public to Public</p>
+					<span>
+						<span class="btn-padding">Off</span>
+						<span class="btn-padding">On</span>
+						<a></a>
+					</span>
+				</label>
 				<!-- custom CSS toggle code-->
 				<!-- custom CSS toggle code-->
 				<select class="form-field" id="timezone">
 					<option disabled selected>Select a Timezone</option>
-					<option>Eastern</option>
-					<!-- more options -->
+					<option>BST</option>
+					<option>CET</option>
 				</select>
 				<div class="settings-button">
 					<button class="button-primary" id="save">Save</button>

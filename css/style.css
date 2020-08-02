@@ -26,6 +26,7 @@ nav {
 main {
   grid-area: main;
   display: grid;
+  margin-bottom: 60px;
 }
 
 .widget-container-full​ {
@@ -397,13 +398,74 @@ input[type=text] {
 }
 
 .button-primary {
-  width: 95%;
-  height: 20%;
-  margin-bottom: 40px;
+  line-height: 3em;
   background: #7477bf;
   border: 1px solid #7477bf;
   color: #fff;
   border-radius: 5px;
+  text-transform: uppercase;
+}
+.button-disabled {
+  line-height: 3em;
+  background: #7477bf;
+  border: 1px solid #7477bf;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.settings {
+  padding-right: 50px;
+}
+
+.settings-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#send {
+  width: 95%;
+}
+
+#save {
+  width: 45%;
+}
+
+#cancel {
+  width: 45%;
+  background: #c2c2c2;
+  border: 1px solid #c2c2c2;
+}
+
+.form-field {
+  height: 50px;
+  width: 100%;
+  margin-right: 35px;
+  border-radius: 5px;
+  padding-left: 15px;
+  color: grey;
+  border: 1px solid #c7c7c7;
+  background: whitesmoke;
+}
+
+.switch-light {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 23px;
+  align-items: center;
+}
+.switch-light p {
+  margin-right: 50px;
+}
+
+#p2 {
+  margin-right: 77px;
+}
+
+.btn-padding {
+  padding: 15px;
 }
 
 /*
