@@ -73,6 +73,12 @@ span {
 .bell {
 	width: 3.5rem;
 	padding: 0.5rem;
+	transition: 0.3s;
+	opacity: 0.7;
+}
+
+.bell:hover {
+	opacity: 1;
 }
 
 .dot {
